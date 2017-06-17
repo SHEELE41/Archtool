@@ -1,5 +1,5 @@
 ﻿Module Public_Module
-    Public Const SERVICE_KEY As String = "OLptxSAXRKiwE0ALQB0kv1DsY0wjN59FraQai%2BRd0ulpI46nfPBlKGVAlUPUjL%2BYmuaWX1U9BnsM1793jhxmMg%3D%3D"
+    Public Const SERVICE_KEY As String = "ENTER YOUR SERVICE_KEY"
     'API Service Key define
 
     Public Structure Building   'Building Structure define
