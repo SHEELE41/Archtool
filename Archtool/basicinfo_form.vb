@@ -48,7 +48,7 @@
 
         'get information for load daum map
         query_address = Net.WebUtility.UrlEncode(LB_Address.Text)   'Encode Korean String to Unicode For Format URL to API Form
-        url_ad2point = "http://apis.daum.net/local/geo/addr2coord?apikey=202dc80b6974454f91f89bff0c98f163&q=" & query_address & "&output=xml"
+url_ad2point = "http://apis.daum.net/local/geo/addr2coord?apikey=ENTER YOUR DAUM API SERVICE KEY HERE&q=" & query_address & "&output=xml"
 
         xml_source = getHttpResponse(url_ad2point)
 
